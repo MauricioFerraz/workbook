@@ -70,7 +70,7 @@ var workbook = new Workbook()
         {"v": 0.618033989},
         {"v": 0.618033989, "t": "n"},
         {"v": 0.618033989, "t": "n", "s": { "numFmt": "0.00%"}},
-        {"v": 0.618033989, "t": "n", "s": { "numFmt": "0.00%"}, fill: { fgColor: { rgb: "FFFFCC00"}}},
+        {"v": 0.618033989, "t": "n", "s": { "numFmt": "0.00%", fill: { fgColor: { rgb: "FFFFCC00"}}}},
         [(new Date()).toLocaleString()]
       ]
     ]).mergeCells("Main", {
